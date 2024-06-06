@@ -75,12 +75,17 @@ header .cta:hover {
     background: #f4f4f4;
 }
 
-.cover-image img {
-    width: 100%;
+.cover-image {
+    max-width: 100%;
     max-height: 400px;
-    object-fit: cover;
+    overflow: hidden;
     border-radius: 10px;
     margin-bottom: 2em;
+}
+
+.cover-image img {
+    width: 100%;
+    height: auto;
 }
 
 .intro-section h1 {
@@ -135,7 +140,7 @@ header .cta:hover {
 }
 
 .feature img, .feature video {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
