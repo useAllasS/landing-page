@@ -1,3 +1,4 @@
+/* General styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
@@ -14,6 +15,7 @@ body {
     padding: 0 1em;
 }
 
+/* Header styles */
 header {
     background: #333;
     color: white;
@@ -66,6 +68,7 @@ header .cta:hover {
     background: #e64a19;
 }
 
+/* Intro section styles */
 .intro-section {
     text-align: center;
     padding: 4em 0;
@@ -106,6 +109,7 @@ header .cta:hover {
     background: #555;
 }
 
+/* Features section styles */
 .features-section {
     padding: 4em 0;
     background: #fff;
@@ -130,7 +134,7 @@ header .cta:hover {
     text-align: center;
 }
 
-.feature img {
+.feature img, .feature video {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
@@ -146,6 +150,7 @@ header .cta:hover {
     color: #666;
 }
 
+/* About section styles */
 .about-section {
     padding: 4em 0;
     background: #f4f4f4;
@@ -194,6 +199,26 @@ header .cta:hover {
     color: #555;
 }
 
+/* Video section styles */
+.video-section {
+    padding: 4em 0;
+    background: #fff;
+    text-align: center;
+}
+
+.video-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+.video-section .intro-video {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Footer styles */
 footer {
     background: #333;
     color: white;
